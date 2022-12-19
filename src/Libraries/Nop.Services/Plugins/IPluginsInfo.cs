@@ -67,6 +67,6 @@ namespace Nop.Services.Plugins
         /// <summary>
         /// Gets or sets the list of plugin names which are not compatible with the current version
         /// </summary>
-        IList<string> IncompatiblePlugins { get; set; }
+        IDictionary<string, string> IncompatiblePlugins { get; set; }
     }
 }
