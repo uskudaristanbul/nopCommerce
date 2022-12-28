@@ -23,10 +23,7 @@
     <None Remove="Views\Configure.cshtml" />
     <None Remove="Views\Customer\GAAuthentication.cshtml" />
     <None Remove="Views\Customer\GAVefification.cshtml" />
-    <None Remove="Views\_ViewImports.cshtml" />
-  </ItemGroup>
-
-  <ItemGroup>
+    
     <Content Include="logo.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
